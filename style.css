@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* @media screen and (max-width:1000px) {
+    body {
+        background-color: darkkhaki;
+    }
+}
+@media screen and (min-width:500px) {
+    body {
+        background-color: darkred;
+    }
+} */
+span{
+    color: darkgray;
+}
+.foto .col-md-3 .box img{
+    max-width: 100%;
+    max-height: 150px;
+    border-radius: 10px;
+}
+.foto .col-md-3 .box{
+    display: block;
+}
+.foto .col-md-3 .box h3{
+    font-family: 'Acme', sans-serif;
+}
+h1{
+    font-family: 'Acme', sans-serif;
+}
+.col-md-3 .box{
+    background-color: white;
+}
+.content .col-md-4 .box:hover{
+    border: 3px solid aqua;
+    border-radius: 20px;
+}
+.content .col-md-4 .box a{
+    color: wheat;
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 2% 6%;
+    border-radius: 20px;
+}
+.col-md-3 .box a{
+    text-decoration: none;
+    background-color: white;
+    padding: 5% 20%;
+    font-size: 40px;
+    color: black;
+}
+.promo .col-md-7 .box *{
+    text-align: left;
+    margin-top: 10px;
+}
+.text_1 a{
+    text-decoration: none;
+    padding: 2% 9%;
+    border-radius: 40px;
+    border: 3px solid aqua;
+}
+
+.Price{
+    margin: 0 20%;
+    display: flex;
+    flex-direction: row;
+}
+.fonts{
+    background-color: azure;
+}
+.fonts .col-sm-6 .box{
+    background-color: azure;
+}
+.fonts .col-md-4 .box h4{font-family: 'Acme', sans-serif;}
+.col-md-5 .box img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.form-inline{
+    display: flex;
+    margin-left: 10%;
+    flex-direction: row;
+}
+.box {
+    background-color: white;
+    padding: 20px;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.header {
+    min-height: 90px;
+    margin-bottom: 20px;
+}
+.promo {
+    min-height: 450px;
+    margin-bottom: 20px;
+}
+.fonts {
+    min-height: 90px;
+    margin-bottom: 20px;
+}
+.content {
+    min-height: 500px;
+    margin-bottom: 20px;
+}
+.foto {
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+.footer{
+    margin-left: 90px;
+}
