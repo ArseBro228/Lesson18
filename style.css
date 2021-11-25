@@ -32,9 +32,6 @@ span{
 h1{
     font-family: 'Acme', sans-serif;
 }
-.content .col-md-4 .box{
-    border-top: 1px solid black;
-}
 .col-md-3 .box{
     background-color: white;
 }
